@@ -1,0 +1,171 @@
+
+.twitterIcon-bird{
+	width: 70vw;	
+}
+
+.column1{
+    float: left;
+    width: 50%;
+    padding: 0px;
+    background: #1da1f2;
+    text-align: center;
+  }
+
+.row{
+    width:100%;
+    height:50%
+}
+
+.footer{
+    display: inline-block;
+    background: rgb(19, 19, 43);
+    padding: 23px 23px 23px 240px;
+    width: 100%;
+    margin-left: -9px;
+}
+
+.footer>span{
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    font-size: 11px;
+    float: left;
+    font-weight: 100;
+    padding-left: 5px;
+    font-style: italic;
+}
+
+
+
+.footer>a{
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    font-size: 10px;
+    float: left;
+    font-weight: 100;
+    padding-left: 5px;
+}
+label{
+    margin-left: 250px; 
+    font-size: 12px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #298ac7;      
+}
+
+#left-text{
+	margin-top:-500px;
+	margin-left:200px;  
+    color:white;
+    font-size: 18px;
+    text-align: left;
+}
+
+.diver1{
+    margin-top:150px;
+    text-align:left;
+    margin-left:25%;
+
+}
+/* .diver1{
+    color: white; 
+    text-align: left; 
+    font-weight: bolder; 
+    font-size: 18px; 
+    font-family: sans-serif;
+} */
+
+
+
+#diver2{
+    background: rgb(19, 19, 43);
+    float:right;
+    width:50%;
+    margin:0px 0px 50px 0px;
+    color: white; 
+    text-align: left; 
+    height: 50em;
+}
+
+.loginform {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.inputclass {
+    background: transparent;
+}
+
+.signin {
+    border-radius: 25px; 
+    background: transparent;
+    color: #298ac7; 
+    font-family: sans-serif;
+}
+
+.fly {
+    margin-top: 220px; 
+    position:absolute;
+    top:95px;
+    left:775px;    
+}
+
+.information {
+    text-align: center;
+    font-size: 27px; 
+    font-family: sans-serif; 
+    margin-top: 300px; 
+}
+
+.merge {
+    margin-left: 180px;
+    font-size: 18px; 
+    font-family: sans-serif;
+}
+
+.button1 {
+    text-align: center;
+}
+
+.button1A {
+    background: #298ac7; 
+    border-radius: 25px; 
+    padding: 7px 70px; 
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif; 
+    margin-bottom: 10px;  
+}
+
+.button1B {
+    border-radius: 25px; 
+    padding: 7px 70px;
+    background: transparent;
+    color: white; 
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

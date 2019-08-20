@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="twittercss.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <title>Twitter Homepage</title>
+    
+<style>body{
+		/*background-image: url(http://i65.tinypic.com/2iuf5ok.png);*/
+	background-color: #1da1f2;
+     font-family: "Arial",sans-serif;
+
+
+
+	/*z-index: 1;*/
+/*
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	
+
+	background-position:  right top;*/
+}
+
+
+.row{
+	width:100%;
+	height:50%;
+
+
+}
+.column1{
+  float: left;
+  width: 50%;
+  padding: 0px;
+  background: #1da1f2;
+  text-align: center;
+}
+#left-text{
+	margin-top:-500px;
+	margin-left:200px;
+    
+    color:white;
+    font-size: 18px;
+    text-align: left;
+
+}
+.column2{
+  float: right;
+  width: 50%;
+    background-color: rgb(19,19,43);
+    text-align: center;
+    margin-bottom: -40px;
+    height:50rem;
+    margin-top: -10px;
+    margin-right: -7px;
+
+
+}
+#button1{
+	background-color:#1da1f2;
+	font-size:15px;
+	padding: 7px 30px;
+	width:50%;
+	border-radius: 25px;
+	border-color: #1da1f2;
+	color:white;
+	margin-bottom:10px;
+}
+#button2{
+	background-color:rgb(19,19,43);
+	font-size:15px;
+	padding: 7px 30px;
+	width:50%;
+	border-radius: 25px;
+	border-color: #1da1f2;
+	color:blue;
+}
+h1,h3{
+	color: white;
+}
+#form{
+	background-color:rgb(19,19,43);
+}
+#name,#password{
+	background-color:rgb(19,19,43);
+	color: grey;
+}
+
+#submit{
+	background-color:rgb(19,19,43);
+	padding: 7px 10px;
+	border-radius: 50px;
+	color:#1da1f2;
+	border-color: #1da1f2;
+}
+label{
+	color: grey;
+	margin-left: 50px;
+	
+}
+#text{
+margin-top: 150px;
+text-align: left;
+margin-left: 25%;
+position: relative;
+}
+
+.twitterIcon-bird{
+	width: 70vw;
+	
+}
+#search{
+	top:150px;
+}
+.bottom{
+
+position: absolute;
+bottom: -150px;    /* -210px for codepen.io */
+background-color:rgb(19,19,43);
+left:0px;
+margin-top:5px;
+padding:5px   140px ;
+color: grey;
+padding-bottom: 10px;
+font-size: 14px;
+right: 0px;
+
+}
+
+#form{
+	margin-top:13px;
+
+}
+#small-bird{
+top:30px;
+left:-15px;
+position: relative;
+}
+</style>
+
+</head>
+
+<body>
+
+	<div class="row">
+
+		<div class="column1">
+			<svg class="twitterIcon-bird" viewBox="0 0 1208 982" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+				<desc>Created with Sketch.</desc>
+				<defs></defs>
+				<title>bird</title>
+				<g id="Final-Horizon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<g id="Artboard" transform="translate(-286.000000, -117.000000)" fill-rule="nonzero" fill="#1B95E0">
+						<path d="M1493.75308,233.195911 C1449.31783,252.922544 1401.56126,266.207828 1351.43951,
+						272.19627 C1402.61804,241.549536 1441.92034,192.987798 1460.3889,135.116296 C1412.53168,
+						163.498493 1359.49119,184.130942 1303.02874,195.252335 C1257.88897,147.093181 1193.42514,
+						117 1122.16771,117 C962.190754,117 844.636121,266.258151 880.768067,421.202806 C674.896491,
+						410.886582 492.324484,312.253414 370.089808,162.341063 C305.17308,273.705962 336.423691,419.391176 446.731805,
+						493.16476 C406.171431,491.856361 367.925917,480.734968 334.561738,462.165765 C331.844294,576.95263 414.122472,
+						684.342008 533.287442,708.245454 C498.413572,717.706186 460.218381,719.9204 421.368991,712.47259 C452.871217,
+						810.904465 544.358512,882.514158 652.854997,884.52708 C548.686294,966.201382 417.443793,1002.68559 286,
+						987.186091 C395.653915,1057.48739 525.940278,1098.50067 665.838342,1098.50067 C1125.89162,1098.50067 1385.81015,
+						709.956437 1370.10936,361.469352 C1418.52012,326.494836 1460.53987,282.864756 1493.75308,233.195911 Z"
+						 id="bird"></path>
+					</g>
+				</g>
+			</svg>
+
+			<div id="left-text">
+
+
+				<p class="icon-text"><img id="search" src="http://i63.tinypic.com/acbki9.jpg" width="18" alt="search icon"> Follow your interests.<br><br>
+					<img
+					 id="search" src="http://i67.tinypic.com/vcqxjn.png" width="18" alt="2 man coversation">
+						Hear what people are talking about.<br><br><img id="search" src="http://i66.tinypic.com/2i0ujx5.png" width="18" alt="chat">	Join the conversation
+				</p>
+
+			</div>
+		</div>
+		<div class="column2">
+			<form id="form">
+				<input id="name" type="name number" name="" placeholder="phone,email or username" required>
+				<input id="password" type="password" name="password" placeholder="password" required>
+				<input id="submit" type="submit" name="Log in" placeholder="Log in" value="Log in">
+				<br>
+				<label>Forgot password?</label>
+			</form>
+			<div id="text">
+				<img id="small-bird" src="http://i65.tinypic.com/2iuf5ok.png" width="80" alt="tweet">
+				<h1>See what’s happening in <br>the world right now</h1>
+				<br>
+
+				<h3> Join Twitter today.</h3>
+			</div>
+			<div id="buttons">
+				<button id="button1">sign up</button>
+				<button id="button2">Log in</button>
+
+			</div>
+		</div>
+		<div class="bottom">
+			<footer>
+				About Help Center Blog Status Jobs Terms Privacy Policy Cookies Ads info Brand Apps Advertise Marketing Businesses Developers
+				Directory Settings &copy2019Twitter
+			</footer>
+		</div>
+
+	</div>
+</body>
+
+</html>
